@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { Col, Container, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg"
+import contactImg from "../assets/img/contact-img.svg";
+import emailjs from '@emailjs/browser'
+
 export const Contact = () => {
     const formInitialDetails = {
         firstname: '',
@@ -20,24 +22,31 @@ export const Contact = () => {
         })
     }
 
-    const handleSubmit = async (e) =>{
-        e.prerventDefault();
-        setButtonText('Sending...');
-        let response = await fetch("http://localhost:3000/contact",{
-            method: "POST",
-            headers:{
-                "Content-Type": "Application/json;charset=utf-8",
-            },
-            body:JSON.stringify(formDetails),
-        });
-        setButtonText("Send");
-        let result = response.json();
-        setFormDetails(formInitialDetails);
-        if(result.code === 200){
-            setStatus({success:true,message:'Message sent successfully'});
-        }else{
-            setStatus({success:false,message:'Something went wrong,please try again later.'});
-        }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        emailjs.send('service_8fazwhr', 'template_vuxhm0o',
+            {
+                from_name: formDetails.firstname + " " + formDetails.lastname,
+                to_name: 'Piyanuch',
+                from_email: formDetails.email,
+                to_email: 'deardear060344@gmail.com',
+                message: formDetails.message,
+            }, '4h7OSla14PQBp2YSb')
+            .then(() => {
+                alert('Thank you. I will get back to you as soon as possible');
+
+                setFormDetails({
+                    firstname: '',
+                    lastname: '',
+                    email: '',
+                    phone: '',
+                    message: ''
+                }, (err) => {
+                    console.log(err);
+                    alert('Something went wrong');
+                })
+            })
     };
 
     return (
