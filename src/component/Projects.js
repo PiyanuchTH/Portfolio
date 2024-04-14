@@ -11,6 +11,7 @@ import hydroponic from "../assets/img/hydroponic.jpg"
 import cer1 from "../assets/img/cer1.jpg"
 import cer2 from "../assets/img/cer2.jpg"
 import cer3 from "../assets/img/cer3.jpg"
+import { useState } from "react";
 export const Projects = () => {
   const projects = [
     {
@@ -81,6 +82,12 @@ export const Projects = () => {
       imgUrl: cer3,
     },
   ];
+  const [activeKey, setActiveKey] = useState("first");
+  
+  const handleSelect = (key) => {
+    console.log(key);
+    setActiveKey(key);
+  };
 
   return (
     <section className="projects" id="projects">
@@ -95,23 +102,23 @@ export const Projects = () => {
                   }
                 >
                   <h2 style={{fontSize:'45px' , fontWeight:700}}>Project</h2>
-                  <Tab.Container id="project-tabs" defaultActiveKey="first">
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first" activeKey={activeKey} onSelect={handleSelect}>
                     <Nav
                       variant="pills"
-                      className="nav-pills mb-5 justify-content-center align-items-center"
+                      className="mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
                       <Nav.Item>
-                        <Nav.Link eventKey="first">
+                        <Nav.Link eventKey="first" style={{ background: activeKey === "first" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '25px' }}>
                           Participating Competitions
                           {/* Competition experience   */}
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="second">Project</Nav.Link>
+                        <Nav.Link eventKey="second" style={{ background: activeKey === "second" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '25px'  }}>Project</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
-                        <Nav.Link eventKey="third">Certificates</Nav.Link>
+                        <Nav.Link eventKey="third" style={{ background: activeKey === "third" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '25px'  }}>Certificates</Nav.Link>
                       </Nav.Item>
                     </Nav>
                     <Tab.Content>
