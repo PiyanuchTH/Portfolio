@@ -10,6 +10,7 @@ import bootstraplogo from "../assets/img/bootstraplogo.png";
 import materiallogo from "../assets/img/materiallogo.png";
 import figmalogo from "../assets/img/figmalogo.png";
 import photoshoplogo from "../assets/img/photoshoplogo.png";
+import vuelogo from "../assets/img/vuelogo.png";
 import { Tilt } from "react-tilt";
 
 export const Skills = () => {
@@ -21,31 +22,23 @@ export const Skills = () => {
             <Col>
               <h2>Skills</h2>
             </Col>
-            <Row style={{ paddingTop: "60px" }}>
-              <Col xs={12} md={4}>
-                <div style={{ display: "contents", alignContent: "center" }}>
-                  <p>JavaScript</p>
-                  <img
-                    src={javascriptlogo}
-                    alt="javascriptlogo"
-                    style={{ width: "100px", height: "100px" }}
-                  />
-                </div>
-              </Col>
-              <Col xs={12} md={4} >
+            <Row >
+              <Col xs={12} md={2}>
                 <Tilt>
-                  <div
-                    style={{
-                      borderWidth: "4px",
-                      borderRadius: "20PX", // Rounded corners
-                      borderStyle: "solid",
-                      borderImage: "linear-gradient(to bottom, blue, purple) 1",
-                      boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.5)", // Drop shadow
-                      padding: "20px 0",
-                    }}
-                  >
-                    <p>HTML</p>
-
+                  <div style={{ display: "contents" }}>
+                    <div style={{ paddingTop: 50 }}>
+                      <img
+                        src={javascriptlogo}
+                        alt="javascriptlogo"
+                        style={{ width: "100px", height: "100px" }}
+                      />
+                    </div>
+                  </div>
+                </Tilt>
+              </Col>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
                     <img
                       src={htmllogo}
                       alt="htmllogo "
@@ -54,50 +47,65 @@ export const Skills = () => {
                   </div>
                 </Tilt>
               </Col>
-              <Col xs={12} md={4}>
-                <div>
-                  <p>CSS</p>
-                  <img
-                    src={CSSlogo}
-                    alt="CSSlogo"
-                    style={{ width: "100px", height: "100px" }}
-                  />
-                </div>
-              </Col>
-              <Col xs={12} md={4}>
-                <div>
-                  <p>React.js</p>
-                  <img
-                    src={reactlogo}
-                    alt="reactlogo"
-                    style={{ width: "110px", height: "100px" }}
-                  />
-                </div>
-              </Col>
-              <Col xs={12} md={4}>
-                <div>
-                  <p>Next.js</p>
-                  <img
-                    src={nextlogo}
-                    alt="nextlogo"
-                    style={{ width: "100px", height: "100px" }}
-                  />
-                </div>
-              </Col>
-              <Col xs={12} md={4}>
-                <div>
-                  <p>Bootstrap</p>
-                  <img
-                    src={bootstraplogo}
-                    alt="bootstraplogo"
-                    style={{ width: "120px", height: "100px" }}
-                  />
-                </div>
-              </Col>
-              <Col xs={12} md={4}>
+              <Col xs={12} md={2}>
                 <Tilt>
-                  <div>
-                    <p>Material UI</p>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={CSSlogo}
+                      alt="CSSlogo"
+                      style={{ width: "100px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
+              </Col>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={reactlogo}
+                      alt="reactlogo"
+                      style={{ width: "110px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
+              </Col>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={nextlogo}
+                      alt="nextlogo"
+                      style={{ width: "100px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
+              </Col>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={vuelogo}
+                      alt="vuelogo"
+                      style={{ width: "120px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
+              </Col>
+
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={bootstraplogo}
+                      alt="bootstraplogo"
+                      style={{ width: "120px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
+              </Col>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
                     <img
                       src={materiallogo}
                       alt="materiallogo"
@@ -106,25 +114,27 @@ export const Skills = () => {
                   </div>
                 </Tilt>
               </Col>
-              <Col xs={12} md={4}>
-                <div>
-                  <p>Figma</p>
-                  <img
-                    src={figmalogo}
-                    alt="figmalogo"
-                    style={{ width: "80px", height: "100px" }}
-                  />
-                </div>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={figmalogo}
+                      alt="figmalogo"
+                      style={{ width: "80px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
               </Col>
-              <Col xs={12} md={4}>
-                <div>
-                  <p>Photoshop</p>
-                  <img
-                    src={photoshoplogo}
-                    alt="photoshoplogo"
-                    style={{ width: "170px", height: "100px" }}
-                  />
-                </div>
+              <Col xs={12} md={2}>
+                <Tilt>
+                  <div style={{ paddingTop: 50 }}>
+                    <img
+                      src={photoshoplogo}
+                      alt="photoshoplogo"
+                      style={{ width: "170px", height: "100px" }}
+                    />
+                  </div>
+                </Tilt>
               </Col>
             </Row>
           </div>

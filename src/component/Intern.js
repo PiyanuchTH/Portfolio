@@ -27,7 +27,7 @@ export const Intern = () => {
     <section className="intern" id="interns">
       <Container>
         <Row>
-          <div className="skill-bx">
+          <div className="intern-bx">
             <Col>
               <TrackVisibility>
                 <div style={{ textAlign: "center" }}>

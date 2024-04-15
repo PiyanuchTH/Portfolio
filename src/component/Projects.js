@@ -111,7 +111,6 @@ export const Projects = () => {
                       <Nav.Item>
                         <Nav.Link eventKey="first" style={{ background: activeKey === "first" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '25px' }}>
                           Participating Competitions
-                          {/* Competition experience   */}
                         </Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
