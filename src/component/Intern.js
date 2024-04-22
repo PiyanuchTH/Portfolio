@@ -34,11 +34,11 @@ export const Intern = () => {
                   <h2 style={{ fontSize: "45px", fontWeight: 700 }}>
                     Internship Experience
                   </h2>
-                  <p>Minorta Technology co.,ltd</p>
+                  <h1>Minerta Technology co.,ltd</h1>
                 </div>
               </TrackVisibility>
             </Col>
-            <Row style={{ paddingTop: "60px" }}>
+            <Row style={{ paddingTop: "30px" }}>
               <Col xs={12} md={5}>
                 <div style={{ display: "flex", justifyContent: "center" }}>
                   <img
@@ -55,7 +55,7 @@ export const Intern = () => {
               <Col xs={12} md={7}>
                 <div>
                   <p style={{ paddingTop: "50px", textAlign: "left" }}>
-                    Internship as Front-End Developer Intern <br />
+                    Internship as Front-End Developer <br />
                     (November 27, 2023 - March 15, 2024)
                   </p>
 
@@ -76,7 +76,7 @@ export const Intern = () => {
                   </p>
                   <p style={{ textAlign: "left" }}>
                     ✔ Studied and implemented the use of React-quill, React-PDF,
-                    and PDF-Lib libraries to integrate features like adding
+                    and PDF-Lib libraries <br /> to integrate features like adding
                     logos and signatures.
                   </p>
                   <p style={{ textAlign: "left" }}>

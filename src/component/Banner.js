@@ -58,7 +58,7 @@ export const Banner = () => {
   };
 
   return (
-    <section className="banner" id="home" style={{paddingBottom:100}}>
+    <section className="banner" id="home" style={{ paddingBottom: 100 }}>
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -72,26 +72,27 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hello I'm Piyanuch`}</h1>
                   <p>
-                    I'm skilled Front-End Developer with experience in
-                    JavaScript, HTML, and CSS. I have utilized libraries and
-                    frameworks such as React.js, Next.js, Vue.js, Bootstrap, and Material UI. I am
-                    highly interested in working as a Front-End Developer or
-                    UX/UI Designer. I am a fast learner and always eager to expand my knowledge.
+                    I would like to be a Front-End Developer or UX/UI Designer.
                   </p>
-                      <Nav.Link
-                        href="#aboutme"
-                        className={
-                          activeLink === "aboutme"
-                            ? "active navbar-link"
-                            : "navbar-link"
-                        }
-                        onClick={() => onUpdateActiveLink("aboutme")}
-                      >
-                        <button>
-                          Let's get to know me
-                          <ArrowRightCircle size={25} />
-                        </button>
-                      </Nav.Link>
+                  <Nav.Link
+                    href="#aboutme"
+                    className={
+                      activeLink === "aboutme"
+                        ? "active navbar-link"
+                        : "navbar-link"
+                    }
+                    onClick={() => onUpdateActiveLink("aboutme")}
+                  >
+                    <div style={{paddingTop:60,display: "flex",
+                  alignItems: 'center',
+                  justifyContent: 'flex-start',}}>
+                      <button>
+                      Let's get to know me
+                      <ArrowRightCircle size={25} />
+                    </button>
+                    </div>
+                    
+                  </Nav.Link>
                 </div>
               )}
             </TrackVisibility>

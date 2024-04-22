@@ -19,7 +19,7 @@ export const AboutMe = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2 style={{fontSize:'45px' , fontWeight:700 , paddingBottom: 50,paddingTop:100 }}>About Me</h2>
+                  <h2 style={{fontSize:'60px' , fontWeight:700 , paddingBottom: 50,paddingTop:50 }}>About Me</h2>
                 </div>
               )}
             </TrackVisibility>
@@ -46,11 +46,11 @@ export const AboutMe = () => {
           <Col xs={12} md={6} xl={5}>
           <p style={{textAlign:"left",fontSize:25 , fontWeight:'bold'}}>Education</p>
             <p style={{textAlign:"left"}}>
-              2020 - Present
-              <br />Bachelor of Computer Engineering and Informatics at
-              Kasetsart University Si Racha Campus
+              Bachelor of Computer Engineering and Informatics at
+              Kasetsart University Si Racha Campus (2020 - 2024)
+              <br/> GPAX: 2.79
             </p>
-            <p style={{textAlign:"left"}}>2014 - 2019 <br />Secondary Education at Satri Phatthalung School</p>
+            <p style={{textAlign:"left"}}>Secondary Education at Satri Phatthalung School (2014 - 2019)</p>
 
             <p style={{textAlign:"left",fontSize:25 , fontWeight:'bold',paddingTop:20}}>Contact</p>
             <p style={{textAlign:"left"}}> <BsFillTelephoneFill style={{marginRight:20}}/>0980915461</p>
