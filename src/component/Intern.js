@@ -3,26 +3,8 @@ import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
 import TrackVisibility from "react-on-screen";
 import intern from "../assets/img/intern.jpg";
-import CheckSquareOutlined from "@ant-design/icons";
 export const Intern = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 400, min: 300 },
-      item: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      item: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      item: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      item: 1,
-    },
-  };
+  
   return (
     <section className="intern" id="interns">
       <Container>

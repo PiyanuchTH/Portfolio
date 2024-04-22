@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-import colorSharp from "../assets/img/color-sharp.png";
 import javascriptlogo from "../assets/img/javascriptlogo.png";
 import htmllogo from "../assets/img/htmllogo.png";
 import CSSlogo from "../assets/img/CSSlogo.png";
