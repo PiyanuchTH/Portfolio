@@ -71,7 +71,7 @@ export const Intern = () => {
           </div>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} />
+      <img className="background-image-left" src={colorSharp} alt="bg-img"/>
     </section>
   );
 };

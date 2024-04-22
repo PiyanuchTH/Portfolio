@@ -58,7 +58,7 @@ export const AboutMe = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt="bg-img"></img>
     </section>
   );
 };
