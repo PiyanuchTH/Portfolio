@@ -54,7 +54,7 @@ export const Intern = () => {
                   <p style={{ textAlign: "left" }}>
                     ✔ Developed web applications following the designs using the
                     Next.js framework <br />
-                    along with Material UI and Prime React libraries.
+                    along with Material UI library.
                   </p>
                   <p style={{ textAlign: "left" }}>
                     ✔ Studied and implemented the use of React-quill, React-PDF,
