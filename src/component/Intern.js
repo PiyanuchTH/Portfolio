@@ -22,7 +22,7 @@ export const Intern = () => {
             </Col>
             <Row style={{ paddingTop: "30px" }}>
               <Col xs={12} md={5}>
-                <div style={{ display: "flex", justifyContent: "center" }}>
+                <div style={{ display: "flex", justifyContent: "center", paddingBottom: 40  }}>
                   <img
                     src={intern}
                     alt="intern"

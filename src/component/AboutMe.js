@@ -29,7 +29,7 @@ export const AboutMe = () => {
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) => (
-                <div
+                <div style={{paddingBottom:50}}
                   className={
                     isVisible ? "animate__animated animate__zoomIn" : ""
                   }
@@ -44,15 +44,15 @@ export const AboutMe = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-          <p style={{textAlign:"left",fontSize:25 , fontWeight:'bold'}}>Education</p>
+          <p style={{textAlign:"center",fontSize:25 , fontWeight:'bold'}}>Education</p>
             <p style={{textAlign:"left"}}>
               Bachelor of Computer Engineering and Informatics at
               Kasetsart University Si Racha Campus (2020 - 2024)
-              <br/> GPAX: 2.79
+              <br/> GPAX: 2.79 
             </p>
             <p style={{textAlign:"left"}}>Secondary Education at Satri Phatthalung School (2014 - 2019)</p>
 
-            <p style={{textAlign:"left",fontSize:25 , fontWeight:'bold',paddingTop:20}}>Contact</p>
+            <p style={{textAlign:"center",fontSize:25 , fontWeight:'bold',paddingTop:20}}>Contact</p>
             <p style={{textAlign:"left"}}> <BsFillTelephoneFill style={{marginRight:20}}/>0980915461</p>
             <p style={{textAlign:"left"}}> <MdEmail style={{marginRight:20}} />deardear060344@gmail.com</p>
           </Col>

@@ -46,7 +46,7 @@ export const Skills = () => {
       <Container>
         <Row>
           <div>
-            <Row style={{ paddingBottom: 100, paddingTop: 150 }}>
+            <Row style={{  paddingTop: 130 }}>
               <Col
                 xs={12}
                 md={5}

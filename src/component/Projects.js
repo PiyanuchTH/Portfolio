@@ -129,7 +129,7 @@ export const Projects = () => {
     <section className="project" id="project">
       <Container>
         <Row>
-          <Col size={12} style={{paddingBottom:40}}>
+          <Col size={12} >
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
@@ -137,14 +137,11 @@ export const Projects = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2 style={{paddingBottom:20}} >Project</h2>
-
-
-
+                  <h2 style={{paddingBottom:15}} >Project</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first" activeKey={activeKey} onSelect={handleSelect}>
                     <Nav
                       variant="pills"
-                      className="mb-5 justify-content-center align-items-center"
+                      className="mb-3 justify-content-center align-items-center"
                       id="pills-tab"
                     >
                       <Nav.Item>

@@ -37,8 +37,8 @@ export const Banner = () => {
                         : "navbar-link"
                     }
                     onClick={() => onUpdateActiveLink("aboutme")}
-                  >
-                    <div style={{paddingTop:60,display: "flex",
+                  > 
+                    <div style={{paddingTop:60,paddingLeft:20 ,display: "flex",
                   alignItems: 'center',
                   justifyContent: 'flex-start',}}>
                       <button>
