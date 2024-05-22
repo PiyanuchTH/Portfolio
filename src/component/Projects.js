@@ -15,6 +15,11 @@ import se from "../assets/img/se.jpg"
 import innovative from "../assets/img/innovative.jpg"
 import computersecur from "../assets/img/computersecur.jpg"
 import mobiledev from "../assets/img/mobiledev.jpg"
+import pj1 from "../assets/img/pj1.jpg"
+import pj2 from "../assets/img/pj2.jpg"
+import pj3 from "../assets/img/pj3.jpg"
+import pj4 from "../assets/img/pj4.jpg"
+import pj5 from "../assets/img/pj5.jpg"
 import { useState } from "react";
 export const Projects = () => {
   const projects = [
@@ -62,29 +67,29 @@ export const Projects = () => {
   const projects6 = [
     {
       title: "Mobile Application Development",
-      description: "Project : Find Your Best Place For You (Application)",
-      imgUrl: mobiledev,
+      description: "Project : Find Your Best Place For You (Mobile Application)",
+      imgUrl: pj2,
     },
   ];
   const projects7 = [
     {
       title: "Software Engineer",
       description: "EV Car Simulator Project (Website & Game)", 
-      imgUrl: se,
+      imgUrl: pj3,
     },
   ];
   const projects8 = [
     {
       title: "Computer Security",
       description: "Login System Project",
-      imgUrl: computersecur,
+      imgUrl: pj4,
     },
   ];
   const projects9 = [
     {
       title: "Innovative Thinking",
       description: "KU Passadu Project (UX/UI Design)",
-      imgUrl: innovative,
+      imgUrl: pj1,
     },
   ];
   const projects10 = [
@@ -106,6 +111,13 @@ export const Projects = () => {
       title: "Young Socialpreneur Hackathon",
       description: "Organized by Kasetsart University Si Racha Campus",
       imgUrl: cer3,
+    },
+  ];
+  const projects13 = [
+    {
+      title: "Web Application Development",
+      description: "Food Rob More (Website)",
+      imgUrl: pj5,
     },
   ];
 
@@ -193,13 +205,16 @@ export const Projects = () => {
                           {projects6.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
+                          {projects9.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
                           {projects7.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                           {projects8.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
-                          {projects9.map((project, index) => {
+                          {projects13.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
                           })}
                         </Row>
