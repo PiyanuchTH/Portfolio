@@ -36,21 +36,30 @@ export const Intern = () => {
               </Col>
               <Col xs={12} md={7}>
                 <div>
-                  <p style={{ paddingTop: "50px", textAlign: "left" }}>
-                    Internship as Front-End Developer <br />
+                  <p style={{ textAlign: "left" }}>
+                    Internship as Front-End Developer at Minerta Technology co.,ltd <br />
                     (November 27, 2023 - March 15, 2024)
                   </p>
 
                   <p style={{ textAlign: "left" }}>
-                    Detail :
+                    Detail : This project is a government project to develop a web application interface <br />
+                    that connects citizens with officials within the organization. Its purpose is to <br />
+                    receive various complaints, petitions, and other activities from the public.<br />
+                    It also includes a Back Office system for efficient internal operations, <br />
+                    allowing officials to work swiftly. Additionally, it enables the generation of <br />
+                    complaint reports, updating various documents of the organization on the website.
                     <br />
                     <br />
+                    <p style={{ textAlign: "left" }}>The assigned task :</p>
                     ✔ Designed web applications for government agencies according
                     to
                     <br />
                     received Terms of Reference (TOR), utilizing Figma for the
                     design process.
                   </p>
+
+                  
+                  
                   <p style={{ textAlign: "left" }}>
                     ✔ Developed web applications following the designs using the
                     Next.js framework <br />
