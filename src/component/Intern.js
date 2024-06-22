@@ -17,6 +17,10 @@ export const Intern = () => {
                     Internship Experience
                   </h2>
                   <h1>Minerta Technology co.,ltd</h1>
+                  <p style={{ textAlign: "center" }}>
+                    Internship as Front-End Developer at Minerta Technology co.,ltd <br />
+                    (November 27, 2023 - March 15, 2024)
+                  </p>
                 </div>
               </TrackVisibility>
             </Col>
@@ -36,18 +40,16 @@ export const Intern = () => {
               </Col>
               <Col xs={12} md={7}>
                 <div>
-                  <p style={{ textAlign: "left" }}>
-                    Internship as Front-End Developer at Minerta Technology co.,ltd <br />
-                    (November 27, 2023 - March 15, 2024)
-                  </p>
+                  
+                  <p style={{ textAlign: "left",fontSize:'20px', fontWeight:'Bold' }}>The project to develop eletronic service provision for the public</p>
 
                   <p style={{ textAlign: "left" }}>
-                    Detail : This project is a government project to develop a web application interface <br />
-                    that connects citizens with officials within the organization. Its purpose is to <br />
-                    receive various complaints, petitions, and other activities from the public.<br />
-                    It also includes a Back Office system for efficient internal operations, <br />
-                    allowing officials to work swiftly. Additionally, it enables the generation of <br />
-                    complaint reports, updating various documents of the organization on the website.
+                    This project is a government project to develop a web application interface that<br />
+                    connects citizens with officials within the organization. Its purpose is to receive<br />
+                    various complaints, petitions, and other activities from the public. It also includes<br />
+                    a Back Office system for efficient internal operations, allowing officials to work  <br />
+                    swiftly. Additionally, it enables the generation of complaint reports and updating<br />
+                    various documents of the organization on the website.
                     <br />
                     <br />
                     <p style={{ textAlign: "left" }}>The assigned task :</p>
@@ -57,18 +59,10 @@ export const Intern = () => {
                     received Terms of Reference (TOR), utilizing Figma for the
                     design process.
                   </p>
-
-                  
-                  
                   <p style={{ textAlign: "left" }}>
                     ✔ Developed web applications following the designs using the
                     Next.js framework <br />
                     along with Material UI library.
-                  </p>
-                  <p style={{ textAlign: "left" }}>
-                    ✔ Studied and implemented the use of React-quill, React-PDF,
-                    and PDF-Lib libraries <br /> to integrate features like adding
-                    logos and signatures.
                   </p>
                   <p style={{ textAlign: "left" }}>
                     ✔ Connected APIs using RESTful API connection and HTTP methods

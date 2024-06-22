@@ -19,7 +19,7 @@ export const AboutMe = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2 style={{fontSize:'60px' , fontWeight:700 , paddingBottom: 50,paddingTop:50 }}>About Me</h2>
+                  <h2 style={{fontSize:'60px' , fontWeight:700 , paddingBottom: 20,paddingTop:20 }}>About Me</h2>
                 </div>
               )}
             </TrackVisibility>

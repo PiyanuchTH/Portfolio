@@ -4,7 +4,6 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import topgun1 from "../assets/img/topgun1.jpg";
 import carla2 from "../assets/img/carla2.jpg";
 import "animate.css";
-import TrackVisibility from "react-on-screen";
 import Hackathonku from "../assets/img/Hackathonku.jpg";
 import embeded1 from "../assets/img/embeded1.jpg";
 import hydroponic from "../assets/img/hydroponic.jpg"
@@ -129,14 +128,7 @@ export const Projects = () => {
     <section className="project" id="project">
       <Container>
         <Row>
-          <Col size={12} >
-            <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
-                  }
-                >
+          <Col  >
                   <h2 style={{paddingBottom:15}} >Project</h2>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first" activeKey={activeKey} onSelect={handleSelect}>
                     <Nav
@@ -144,14 +136,15 @@ export const Projects = () => {
                       className="mb-3 justify-content-center align-items-center"
                       id="pills-tab"
                     >
+                      
+                      <Nav.Item>
+                        <Nav.Link eventKey="second" style={{ background: activeKey === "second" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '15px'  }}>
+                          Projects</Nav.Link>
+                      </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="first" style={{ background: activeKey === "first" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '15px' }}>
                           Participating Competitions
                         </Nav.Link>
-                      </Nav.Item>
-                      <Nav.Item>
-                        <Nav.Link eventKey="second" style={{ background: activeKey === "second" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '15px'  }}>
-                          Projects</Nav.Link>
                       </Nav.Item>
                       <Nav.Item>
                         <Nav.Link eventKey="third" style={{ background: activeKey === "third" ? 'linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)' : '', fontSize: '15px'  }}>
@@ -209,7 +202,7 @@ export const Projects = () => {
                           })}
                           {projects13.map((project, index) => {
                             return <ProjectCard key={index} {...project} />;
-                          })}
+                          })} 
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
@@ -227,9 +220,6 @@ export const Projects = () => {
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
-                </div>
-              )}
-            </TrackVisibility>
           </Col>
         </Row>
       </Container>

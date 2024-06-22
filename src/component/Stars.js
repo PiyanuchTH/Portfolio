@@ -57,7 +57,7 @@ export default function StarsCanvas() {
   }, []);
 
   return (
-  <Col xs={12} md={6}>
+  <Col xs={12} md={12}>
   <canvas ref={canvasRef} style={{ position: 'absolute', top: 0, left: 0, zIndex: -1 }} /></Col>
 )
 };

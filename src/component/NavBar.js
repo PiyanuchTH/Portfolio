@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 import { BrowserRouter as Router} from "react-router-dom";
 
 export const NavBar = () => {
@@ -39,8 +38,7 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/piyanuch-thong-iad-074966268/" target="blank"><img src={navIcon1} alt="linkedIn" /></a>
-                <a href="https://www.facebook.com/piyanuch.thongiad.5" target="blank"><img src={navIcon2} alt="facebook" /></a>
+                <a href="https://github.com/PiyanuchTH" target="blank"><img src={navIcon4} alt="github" /></a>
               </div>
               <Nav.Link href="#contact" className={activeLink === 'contact' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('contact')}>
                 <button className="vvd"><span>Let’s Connect</span></button>
