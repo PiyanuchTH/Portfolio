@@ -1,0 +1,14 @@
+/* NavBar.css */
+
+.navbar.expanded {
+    background-color: black;
+  }
+
+  .navbar .navbar-collapse {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar .navbar-toggler {
+    border: none;
+  }
+  
