@@ -68,13 +68,13 @@ export const Skills = () => {
                
               </Col>
 
-              <Col xs={12} md={7}>
-                <Row style={{ marginRight: "10px" }}>
+              <Col xs={12} md={7} style={{paddingTop:'20px' }}>
+                <Row style={{ marginRight: "10px" , justifyContent:'center'}}>
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -88,7 +88,7 @@ export const Skills = () => {
                       alt="javascriptlogo"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>JavaScript</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>JavaScript</h3>
                   </div>
                   
 
@@ -96,7 +96,7 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -110,14 +110,14 @@ export const Skills = () => {
                       alt="htmllogo "
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>HTML</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>HTML</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -131,14 +131,14 @@ export const Skills = () => {
                       alt="CSSlogo"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>CSS</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>CSS</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -152,14 +152,14 @@ export const Skills = () => {
                       alt="javaslogo"
                       style={{ width: "25px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Java</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Java</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -173,15 +173,15 @@ export const Skills = () => {
                       alt="reactlogo"
                       style={{ width: "35px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>React.JS</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>React.JS</h3>
                   </div>
-                </Row>
-                <Row style={{ paddingTop: 20 }}>
+                {/* </Row>
+                <Row style={{ paddingTop: 20 }}> */}
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -195,14 +195,14 @@ export const Skills = () => {
                       alt="nextlogo"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Next.JS</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Next.JS</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -216,14 +216,14 @@ export const Skills = () => {
                       alt="vuelogo"
                       style={{ width: "35px", height: "25px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Vue.JS</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Vue.JS</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -237,19 +237,19 @@ export const Skills = () => {
                       alt="bootstraplogo"
                       style={{ width: "50px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Bootstrap</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Bootstrap</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
                       paddingLeft: 15,
-                      width: 156,
+                      width: 200,
                       marginRight: 10,
                     }}
                   >
@@ -258,20 +258,20 @@ export const Skills = () => {
                       alt="materiallogo"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Material UI</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Material UI</h3>
                   </div>
-                </Row>
-                <Row style={{ paddingTop: 20 }}>
+                {/* </Row>
+                <Row style={{ paddingTop: 20 }}> */}
                 <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
                       paddingLeft: 15,
-                      width: 195,
+                      width: 240,
                       marginRight: 10,
                     }}
                   >
@@ -280,19 +280,19 @@ export const Skills = () => {
                       alt="springlogo"
                       style={{ width: "26px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Java Spring Boot</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Java Spring Boot</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
                       paddingLeft: 15,
-                      width: 150,
+                      width: 180,
                       marginRight: 10,
                     }}
                   >
@@ -301,14 +301,14 @@ export const Skills = () => {
                       alt="mongodblogo"
                       style={{ width: "26px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Mongo DB</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Mongo DB</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -322,14 +322,14 @@ export const Skills = () => {
                       alt="figmalogo"
                       style={{ width: "25px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Figma</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Figma</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -343,22 +343,22 @@ export const Skills = () => {
                       alt="photoshoplogo"
                       style={{ width: "90px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10  }}>Photoshop</h3>
+                    <h3 style={{ margin: 10 , color: "#fff" }}>Photoshop</h3>
                   </div>
 
                   
-                </Row>
-                <Row style={{ paddingTop: 20 }}>
+                {/* </Row>
+                <Row style={{ paddingTop: 20 }}> */}
                 <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
                       paddingLeft: 15,
-                      width: 140,
+                      width: 160,
                       marginRight: 10,
                     }}
                   >
@@ -367,14 +367,14 @@ export const Skills = () => {
                       alt="vscodelogo"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>VS Code</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>VS Code</h3>
                   </div>
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -388,13 +388,13 @@ export const Skills = () => {
                       alt="postman"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Postman</h3>
+                    <h3 style={{ margin: 10 , color: "#fff"}}>Postman</h3>
                   </div>
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      backgroundColor: "#fff",
+                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -408,7 +408,7 @@ export const Skills = () => {
                       alt="gitlogo"
                       style={{ width: "30px", height: "30px" }}
                     />
-                    <h3 style={{ margin: 10 }}>Git</h3>
+                    <h3 style={{ margin: 10, color: "#fff" }}>Git</h3>
                   </div>
                 </Row>
               </Col>
