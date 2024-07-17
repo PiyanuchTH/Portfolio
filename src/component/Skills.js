@@ -15,6 +15,10 @@ import postman from "../assets/img/postman.png";
 import vscodelogo from "../assets/img/vscodelogo.png";
 import gitlogo from "../assets/img/gitlogo.png";
 import StarsCanvas from "../component/Stars";
+import javalogo from "../assets/img/javalogo.png";
+import springlogo from "../assets/img/springlogo.png";
+import mongodblogo from "../assets/img/mongodblogo.png";
+
 export const Skills = () => {
   const [text, setText] = useState("");
   const [index, setIndex] = useState(0);
@@ -22,7 +26,6 @@ export const Skills = () => {
   const pauseDuration = 2000;
 
   const content = "My Skills";
-
   useEffect(() => {
     const typingInterval = setInterval(() => {
       if (index < content.length) {
@@ -58,10 +61,10 @@ export const Skills = () => {
                 }}
               >
                   <h2 className="typing-text">{text}</h2>
-                  <h4>I'm skilled Front-End Developer with experience in<br/>
+                  {/* <h4>I'm skilled Front-End Developer with experience in
                     JavaScript, HTML, and CSS. I have utilized libraries and
-                    frameworks such as  React.js, Next.js, Vue.js,<br/> Bootstrap, and Material UI.
-                    I'm a fast learner and<br/> always eager to expand my knowledge.</h4>
+                    frameworks such as  React.js, Next.js, Vue.js, Bootstrap, and Material UI.
+                    I'm a fast learner andalways eager to expand my knowledge.</h4> */}
                
               </Col>
 
@@ -87,6 +90,7 @@ export const Skills = () => {
                     />
                     <h3 style={{ margin: 10 }}>JavaScript</h3>
                   </div>
+                  
 
                   <div
                     style={{
@@ -128,6 +132,27 @@ export const Skills = () => {
                       style={{ width: "30px", height: "30px" }}
                     />
                     <h3 style={{ margin: 10 }}>CSS</h3>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 105,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={javalogo}
+                      alt="javaslogo"
+                      style={{ width: "25px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10 }}>Java</h3>
                   </div>
 
                   <div
@@ -182,14 +207,14 @@ export const Skills = () => {
                       paddingTop: 5,
                       paddingBottom: 5,
                       paddingLeft: 15,
-                      width: 140,
+                      width: 130,
                       marginRight: 10,
                     }}
                   >
                     <img
                       src={vuelogo}
                       alt="vuelogo"
-                      style={{ width: "40px", height: "30px" }}
+                      style={{ width: "35px", height: "25px" }}
                     />
                     <h3 style={{ margin: 10 }}>Vue.JS</h3>
                   </div>
@@ -237,6 +262,48 @@ export const Skills = () => {
                   </div>
                 </Row>
                 <Row style={{ paddingTop: 20 }}>
+                <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 195,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={springlogo}
+                      alt="springlogo"
+                      style={{ width: "26px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10 }}>Java Spring Boot</h3>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 150,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={mongodblogo}
+                      alt="mongodblogo"
+                      style={{ width: "26px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10 }}>Mongo DB</h3>
+                  </div>
+
                   <div
                     style={{
                       display: "flex",
@@ -279,7 +346,10 @@ export const Skills = () => {
                     <h3 style={{ margin: 10  }}>Photoshop</h3>
                   </div>
 
-                  <div
+                  
+                </Row>
+                <Row style={{ paddingTop: 20 }}>
+                <div
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -299,8 +369,7 @@ export const Skills = () => {
                     />
                     <h3 style={{ margin: 10 }}>VS Code</h3>
                   </div>
-                </Row>
-                <Row style={{ paddingTop: 20 }}>
+
                   <div
                     style={{
                       display: "flex",
