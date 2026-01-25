@@ -370,10 +370,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 0 auto 15px auto;
 }
 .background-image-left {
-  top: 28%;
+  top: 20%;
   position: absolute;
   bottom: 0;
-  width: 40%;
+  width: 100%;
+  right: 0;
   z-index: -4;
 }
 .btn-gradient-1 {

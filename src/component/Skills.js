@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import javascriptlogo from "../assets/img/javascriptlogo.png";
+import angularlogo from "../assets/img/Angular.png";
 import htmllogo from "../assets/img/htmllogo.png";
 import CSSlogo from "../assets/img/CSSlogo.png";
 import reactlogo from "../assets/img/reactlogo.png";
@@ -18,6 +19,9 @@ import StarsCanvas from "../component/Stars";
 import javalogo from "../assets/img/javalogo.png";
 import springlogo from "../assets/img/springlogo.png";
 import mongodblogo from "../assets/img/mongodblogo.png";
+import dotnetcorelogo from "../assets/img/net_core_logo.png";
+import sqllogo from "../assets/img/sql-logo.png";
+import sqlserverlogo from "../assets/img/microsoft-sql-server-logo.png";
 
 export const Skills = () => {
   const [text, setText] = useState("");
@@ -70,6 +74,95 @@ export const Skills = () => {
 
               <Col xs={12} md={7} style={{paddingTop:'20px' }}>
                 <Row style={{ marginRight: "10px" , justifyContent:'center'}}>
+                  
+
+                  {/* <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 105,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={javalogo}
+                      alt="javaslogo"
+                      style={{ width: "25px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>Java</h3>
+                  </div> */}
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 140,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={angularlogo}
+                      alt="angularlogo"
+                      style={{ width: "35px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>Angular.TS</h3>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 140,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={reactlogo}
+                      alt="reactlogo"
+                      style={{ width: "35px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>React.JS</h3>
+                  </div>
+
+                 
+                {/* </Row>
+                <Row style={{ paddingTop: 20 }}> */}
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 130,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={nextlogo}
+                      alt="nextlogo"
+                      style={{ width: "30px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>Next.JS</h3>
+                  </div>
+
                   <div
                     style={{
                       display: "flex",
@@ -134,71 +227,11 @@ export const Skills = () => {
                     <h3 style={{ margin: 10, color: "#fff" }}>CSS</h3>
                   </div>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 105,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={javalogo}
-                      alt="javaslogo"
-                      style={{ width: "25px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>Java</h3>
-                  </div>
+                  
 
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 140,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={reactlogo}
-                      alt="reactlogo"
-                      style={{ width: "35px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>React.JS</h3>
-                  </div>
-                {/* </Row>
-                <Row style={{ paddingTop: 20 }}> */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 130,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={nextlogo}
-                      alt="nextlogo"
-                      style={{ width: "30px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>Next.JS</h3>
-                  </div>
+                   
 
-                  <div
+                  {/* <div
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -217,7 +250,7 @@ export const Skills = () => {
                       style={{ width: "35px", height: "25px" }}
                     />
                     <h3 style={{ margin: 10, color: "#fff" }}>Vue.JS</h3>
-                  </div>
+                  </div> */}
 
                   <div
                     style={{
@@ -249,7 +282,7 @@ export const Skills = () => {
                       paddingTop: 5,
                       paddingBottom: 5,
                       paddingLeft: 15,
-                      width: 200,
+                      width: 160,
                       marginRight: 10,
                     }}
                   >
@@ -260,9 +293,72 @@ export const Skills = () => {
                     />
                     <h3 style={{ margin: 10, color: "#fff" }}>Material UI</h3>
                   </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 100,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={dotnetcorelogo}
+                      alt="dotnetcorelogo"
+                      style={{ width: "30px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>.Net core</h3>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 100,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={sqllogo}
+                      alt="sqllogo"
+                      style={{ width: "30px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>SQL</h3>
+                  </div>
+
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      // backgroundColor: "#fff",
+                      borderRadius: 50,
+                      paddingTop: 5,
+                      paddingBottom: 5,
+                      paddingLeft: 15,
+                      width: 170,
+                      marginRight: 10,
+                    }}
+                  >
+                    <img
+                      src={sqlserverlogo}
+                      alt="sqlserverlogo"
+                      style={{ width: "30px", height: "30px" }}
+                    />
+                    <h3 style={{ margin: 10, color: "#fff" }}>MS SQL Server</h3>
+                  </div>
                 {/* </Row>
                 <Row style={{ paddingTop: 20 }}> */}
-                <div
+                {/* <div
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -281,9 +377,9 @@ export const Skills = () => {
                       style={{ width: "26px", height: "30px" }}
                     />
                     <h3 style={{ margin: 10, color: "#fff" }}>Java Spring Boot</h3>
-                  </div>
+                  </div> */}
 
-                  <div
+                  {/* <div
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -302,7 +398,7 @@ export const Skills = () => {
                       style={{ width: "26px", height: "30px" }}
                     />
                     <h3 style={{ margin: 10, color: "#fff" }}>Mongo DB</h3>
-                  </div>
+                  </div> */}
 
                   <div
                     style={{
@@ -325,7 +421,7 @@ export const Skills = () => {
                     <h3 style={{ margin: 10, color: "#fff" }}>Figma</h3>
                   </div>
 
-                  <div
+                  {/* <div
                     style={{
                       display: "flex",
                       alignItems: "center",
@@ -344,7 +440,7 @@ export const Skills = () => {
                       style={{ width: "90px", height: "30px" }}
                     />
                     <h3 style={{ margin: 10 , color: "#fff" }}>Photoshop</h3>
-                  </div>
+                  </div> */}
 
                   
                 {/* </Row>

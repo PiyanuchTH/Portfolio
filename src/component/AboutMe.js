@@ -2,7 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import profilepics from "../assets/img/profilepics.jpg";
+import profilepics from "../assets/img/S__82427906.jpg";
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
@@ -37,14 +37,14 @@ export const AboutMe = () => {
                   <img
                     src={profilepics}
                     alt="Header Img"
-                    style={{ width: "227.6px", height: "287.2px" }}
+                    style={{ width: "auto", height: "287.2px" }}
                   />
                 </div>
               )}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-          <p style={{textAlign:"center",fontSize:25 , fontWeight:'bold'}}>Education</p>
+          <p style={{textAlign:"center",fontSize:25 , fontWeight:'bold'}}>Academic Background</p>
             <p style={{textAlign:"left"}}>
               Bachelor of Computer Engineering and Informatics at
               Kasetsart University Si Racha Campus (2020 - 2024)

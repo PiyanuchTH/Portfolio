@@ -27,7 +27,7 @@ export const Banner = () => {
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hello I'm Piyanuch`}</h1>
                   <p>
-                    I would like to be a Front-End Developer or UX/UI Designer.
+                    I would like to be a Full Stack Developer or Software Tester.
                   </p>
                   <Nav.Link
                     href="#aboutme"
