@@ -10,15 +10,10 @@ import nextlogo from "../assets/img/nextlogo.png";
 import bootstraplogo from "../assets/img/bootstraplogo.png";
 import materiallogo from "../assets/img/materiallogo.png";
 import figmalogo from "../assets/img/figmalogo.png";
-import photoshoplogo from "../assets/img/photoshoplogo.png";
-import vuelogo from "../assets/img/vuelogo.png";
 import postman from "../assets/img/postman.png";
 import vscodelogo from "../assets/img/vscodelogo.png";
 import gitlogo from "../assets/img/gitlogo.png";
 import StarsCanvas from "../component/Stars";
-import javalogo from "../assets/img/javalogo.png";
-import springlogo from "../assets/img/springlogo.png";
-import mongodblogo from "../assets/img/mongodblogo.png";
 import dotnetcorelogo from "../assets/img/net_core_logo.png";
 import sqllogo from "../assets/img/sql-logo.png";
 import sqlserverlogo from "../assets/img/microsoft-sql-server-logo.png";
@@ -65,43 +60,16 @@ export const Skills = () => {
                 }}
               >
                   <h2 className="typing-text">{text}</h2>
-                  {/* <h4>I'm skilled Front-End Developer with experience in
-                    JavaScript, HTML, and CSS. I have utilized libraries and
-                    frameworks such as  React.js, Next.js, Vue.js, Bootstrap, and Material UI.
-                    I'm a fast learner andalways eager to expand my knowledge.</h4> */}
                
               </Col>
 
               <Col xs={12} md={7} style={{paddingTop:'20px' }}>
                 <Row style={{ marginRight: "10px" , justifyContent:'center'}}>
-                  
-
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 105,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={javalogo}
-                      alt="javaslogo"
-                      style={{ width: "25px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>Java</h3>
-                  </div> */}
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -122,7 +90,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -139,14 +106,10 @@ export const Skills = () => {
                     <h3 style={{ margin: 10, color: "#fff" }}>React.JS</h3>
                   </div>
 
-                 
-                {/* </Row>
-                <Row style={{ paddingTop: 20 }}> */}
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -167,7 +130,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -189,7 +151,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -210,7 +171,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -227,36 +187,10 @@ export const Skills = () => {
                     <h3 style={{ margin: 10, color: "#fff" }}>CSS</h3>
                   </div>
 
-                  
-
-                   
-
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 130,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={vuelogo}
-                      alt="vuelogo"
-                      style={{ width: "35px", height: "25px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>Vue.JS</h3>
-                  </div> */}
-
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -277,7 +211,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -298,7 +231,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -319,7 +251,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -340,7 +271,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -356,55 +286,11 @@ export const Skills = () => {
                     />
                     <h3 style={{ margin: 10, color: "#fff" }}>MS SQL Server</h3>
                   </div>
-                {/* </Row>
-                <Row style={{ paddingTop: 20 }}> */}
-                {/* <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 240,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={springlogo}
-                      alt="springlogo"
-                      style={{ width: "26px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>Java Spring Boot</h3>
-                  </div> */}
-
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 180,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={mongodblogo}
-                      alt="mongodblogo"
-                      style={{ width: "26px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10, color: "#fff" }}>Mongo DB</h3>
-                  </div> */}
 
                   <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -421,35 +307,10 @@ export const Skills = () => {
                     <h3 style={{ margin: 10, color: "#fff" }}>Figma</h3>
                   </div>
 
-                  {/* <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      // backgroundColor: "#fff",
-                      borderRadius: 50,
-                      paddingTop: 5,
-                      paddingBottom: 5,
-                      paddingLeft: 15,
-                      width: 170,
-                      marginRight: 10,
-                    }}
-                  >
-                    <img
-                      src={photoshoplogo}
-                      alt="photoshoplogo"
-                      style={{ width: "90px", height: "30px" }}
-                    />
-                    <h3 style={{ margin: 10 , color: "#fff" }}>Photoshop</h3>
-                  </div> */}
-
-                  
-                {/* </Row>
-                <Row style={{ paddingTop: 20 }}> */}
                 <div
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -470,7 +331,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
@@ -490,7 +350,6 @@ export const Skills = () => {
                     style={{
                       display: "flex",
                       alignItems: "center",
-                      // backgroundColor: "#fff",
                       borderRadius: 50,
                       paddingTop: 5,
                       paddingBottom: 5,
