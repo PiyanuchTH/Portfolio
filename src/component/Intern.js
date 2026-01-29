@@ -19,7 +19,6 @@ export const Intern = () => {
                     <h1>Samsung SDS Global SCL (Thailand) Co.,Ltd </h1>
                     <p style={{ textAlign: "center" }}>
                       Programmer <br />
-                      (February 2025 - December 2025)
                     </p>
                   </div>
                 </TrackVisibility>
@@ -88,7 +87,6 @@ export const Intern = () => {
                     <p style={{ textAlign: "center" }}>
                       Internship as Front-End Developer at Minerta Technology
                       Co.,Ltd <br />
-                      (November 27, 2023 - March 15, 2024)
                     </p>
                   </div>
                 </TrackVisibility>
